@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4FECDD8319840E1800060307 /* TBRAnimatedAddBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FECDD8219840E1800060307 /* TBRAnimatedAddBarButtonItem.m */; };
+		4FECDD86198413A100060307 /* TBRAnimatedAddButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FECDD85198413A100060307 /* TBRAnimatedAddButton.m */; };
 		BF3A94B91982ADF10008ECA2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF3A94B81982ADF10008ECA2 /* Foundation.framework */; };
 		BF3A94BB1982ADF10008ECA2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF3A94BA1982ADF10008ECA2 /* CoreGraphics.framework */; };
 		BF3A94BD1982ADF10008ECA2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF3A94BC1982ADF10008ECA2 /* UIKit.framework */; };
@@ -35,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4FECDD8119840E1800060307 /* TBRAnimatedAddBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBRAnimatedAddBarButtonItem.h; sourceTree = "<group>"; };
+		4FECDD8219840E1800060307 /* TBRAnimatedAddBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBRAnimatedAddBarButtonItem.m; sourceTree = "<group>"; };
+		4FECDD84198413A100060307 /* TBRAnimatedAddButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBRAnimatedAddButton.h; sourceTree = "<group>"; };
+		4FECDD85198413A100060307 /* TBRAnimatedAddButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBRAnimatedAddButton.m; sourceTree = "<group>"; };
 		BF3A94B51982ADF10008ECA2 /* TBRAddAnimatedViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TBRAddAnimatedViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF3A94B81982ADF10008ECA2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BF3A94BA1982ADF10008ECA2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -120,7 +126,7 @@
 				BF3A94CA1982ADF10008ECA2 /* Main.storyboard */,
 				BF3A94CD1982ADF10008ECA2 /* ViewController.h */,
 				BF3A94CE1982ADF10008ECA2 /* ViewController.m */,
-				BF3A94F01982AE520008ECA2 /* TBRAddAnimatedView */,
+				BF3A94F01982AE520008ECA2 /* TBRAnimatedAddButtons */,
 				BF3A94D01982ADF10008ECA2 /* Images.xcassets */,
 				BF3A94BF1982ADF10008ECA2 /* Supporting Files */,
 			);
@@ -156,14 +162,18 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		BF3A94F01982AE520008ECA2 /* TBRAddAnimatedView */ = {
+		BF3A94F01982AE520008ECA2 /* TBRAnimatedAddButtons */ = {
 			isa = PBXGroup;
 			children = (
+				4FECDD8119840E1800060307 /* TBRAnimatedAddBarButtonItem.h */,
+				4FECDD8219840E1800060307 /* TBRAnimatedAddBarButtonItem.m */,
+				4FECDD84198413A100060307 /* TBRAnimatedAddButton.h */,
+				4FECDD85198413A100060307 /* TBRAnimatedAddButton.m */,
 				BF3A94F11982AE520008ECA2 /* TBRAddAnimatedView.h */,
 				BF3A94F21982AE520008ECA2 /* TBRAddAnimatedView.m */,
 			);
-			name = TBRAddAnimatedView;
-			path = ../../TBRAddAnimatedView;
+			name = TBRAnimatedAddButtons;
+			path = ../../TBRAnimatedAddButtons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,9 +274,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF3A94CF1982ADF10008ECA2 /* ViewController.m in Sources */,
+				4FECDD86198413A100060307 /* TBRAnimatedAddButton.m in Sources */,
 				BF3A94C91982ADF10008ECA2 /* AppDelegate.m in Sources */,
 				BF3A94F31982AE520008ECA2 /* TBRAddAnimatedView.m in Sources */,
 				BF3A94C51982ADF10008ECA2 /* main.m in Sources */,
+				4FECDD8319840E1800060307 /* TBRAnimatedAddBarButtonItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

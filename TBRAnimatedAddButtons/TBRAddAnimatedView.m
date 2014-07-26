@@ -8,16 +8,9 @@
 
 #import "TBRAddAnimatedView.h"
 
-typedef NS_ENUM(NSInteger, ViewState) {
-    ViewStateAdd = 0,
-    ViewStateDelete
-};
-
 @interface TBRAddAnimatedView ()
 
 @property (nonatomic, strong) CAShapeLayer *crossShapeLayer;
-@property (nonatomic) ViewState viewState;
-@property (nonatomic, strong) UIButton *button;
 
 @end
 
@@ -27,6 +20,18 @@ typedef NS_ENUM(NSInteger, ViewState) {
 {
     self = [super initWithFrame:frame];
     if (self) {
+
+        [self.layer addSublayer:self.crossShapeLayer];
+
+    }
+    return self;
+}
+
+#pragma mark - Lazy initialization
+
+- (CAShapeLayer *)crossShapeLayer
+{
+    if (_crossShapeLayer == nil) {
         _crossShapeLayer = [CAShapeLayer layer];
         _crossShapeLayer.bounds = self.bounds;
         _crossShapeLayer.anchorPoint = CGPointMake(0.5f, 0.5f);
@@ -37,37 +42,15 @@ typedef NS_ENUM(NSInteger, ViewState) {
         CGPoint centerPoint = CGPointMake(CGRectGetMidX(self.bounds),
                                           CGRectGetMidY(self.bounds));
         _crossShapeLayer.position = centerPoint;
-        [self.layer addSublayer:_crossShapeLayer];
-        
-        self.viewState = ViewStateAdd;
-        
-        _button = [[UIButton alloc] initWithFrame:frame];
-        [_button addTarget:self
-                    action:@selector(buttonPressed)
-          forControlEvents:UIControlEventTouchUpInside];
-        [self addSubview:_button];
     }
-    return self;
-}
-
-- (void)buttonPressed
-{
-    switch (self.viewState) {
-        case ViewStateAdd:
-            [self animateToDelete];
-            self.viewState = ViewStateDelete;
-            break;
-        case ViewStateDelete:
-            [self animateToAdd];
-            self.viewState = ViewStateAdd;
-            break;
-    }
+    
+    return _crossShapeLayer;
 }
 
 - (UIBezierPath *)crossPath
 {
     UIBezierPath *crossPath = [UIBezierPath bezierPath];
-    CGRect bounds = self.crossShapeLayer.bounds;
+    CGRect bounds = self.bounds;
     
     CGPoint midLeftPoint = CGPointMake(CGRectGetMinX(bounds),
                                        CGRectGetMidY(bounds));
@@ -91,14 +74,26 @@ typedef NS_ENUM(NSInteger, ViewState) {
     return crossPath;
 }
 
-- (void)animateToAdd
+#pragma mark - Public methods
+
+- (void)animateToAddState
 {
     self.crossShapeLayer.affineTransform = CGAffineTransformMakeRotation(0);
+    self.state = TBRAddAnimatedViewStateAdd;
 }
 
-- (void)animateToDelete
+- (void)animateToCancelState
 {
     self.crossShapeLayer.affineTransform = CGAffineTransformMakeRotation(M_PI_4);
+    self.state = TBRAddAnimatedViewStateCancel;
+}
+
+#pragma mark - Overridden setters
+
+- (void)setTintColor:(UIColor *)tintColor
+{
+    [super setTintColor:tintColor];
+    self.crossShapeLayer.strokeColor = tintColor.CGColor;
 }
 
 
