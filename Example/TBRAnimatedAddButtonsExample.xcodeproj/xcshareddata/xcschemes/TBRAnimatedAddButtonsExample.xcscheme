@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BF3A94B41982ADF10008ECA2"
-               BuildableName = "TBRAddAnimatedViewExample.app"
-               BlueprintName = "TBRAddAnimatedViewExample"
-               ReferencedContainer = "container:TBRAddAnimatedViewExample.xcodeproj">
+               BlueprintIdentifier = "4FD32FA619843208007CCD0D"
+               BuildableName = "TBRAnimatedAddButtonsExample.app"
+               BlueprintName = "TBRAnimatedAddButtonsExample"
+               ReferencedContainer = "container:TBRAnimatedAddButtonsExample.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,20 +32,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BF3A94D51982ADF10008ECA2"
-               BuildableName = "TBRAddAnimatedViewExampleTests.xctest"
-               BlueprintName = "TBRAddAnimatedViewExampleTests"
-               ReferencedContainer = "container:TBRAddAnimatedViewExample.xcodeproj">
+               BlueprintIdentifier = "4FD32FC719843208007CCD0D"
+               BuildableName = "TBRAnimatedAddButtonsExampleTests.xctest"
+               BlueprintName = "TBRAnimatedAddButtonsExampleTests"
+               ReferencedContainer = "container:TBRAnimatedAddButtonsExample.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BF3A94B41982ADF10008ECA2"
-            BuildableName = "TBRAddAnimatedViewExample.app"
-            BlueprintName = "TBRAddAnimatedViewExample"
-            ReferencedContainer = "container:TBRAddAnimatedViewExample.xcodeproj">
+            BlueprintIdentifier = "4FD32FA619843208007CCD0D"
+            BuildableName = "TBRAnimatedAddButtonsExample.app"
+            BlueprintName = "TBRAnimatedAddButtonsExample"
+            ReferencedContainer = "container:TBRAnimatedAddButtonsExample.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -61,10 +61,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BF3A94B41982ADF10008ECA2"
-            BuildableName = "TBRAddAnimatedViewExample.app"
-            BlueprintName = "TBRAddAnimatedViewExample"
-            ReferencedContainer = "container:TBRAddAnimatedViewExample.xcodeproj">
+            BlueprintIdentifier = "4FD32FA619843208007CCD0D"
+            BuildableName = "TBRAnimatedAddButtonsExample.app"
+            BlueprintName = "TBRAnimatedAddButtonsExample"
+            ReferencedContainer = "container:TBRAnimatedAddButtonsExample.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -79,10 +79,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BF3A94B41982ADF10008ECA2"
-            BuildableName = "TBRAddAnimatedViewExample.app"
-            BlueprintName = "TBRAddAnimatedViewExample"
-            ReferencedContainer = "container:TBRAddAnimatedViewExample.xcodeproj">
+            BlueprintIdentifier = "4FD32FA619843208007CCD0D"
+            BuildableName = "TBRAnimatedAddButtonsExample.app"
+            BlueprintName = "TBRAnimatedAddButtonsExample"
+            ReferencedContainer = "container:TBRAnimatedAddButtonsExample.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -1,8 +1,8 @@
 //
 //  ViewController.m
-//  TBRAddAnimatedViewExample
+//  TBRAnimatedAddButtonsExample
 //
-//  Created by Luciano Marisi on 25/07/2014.
+//  Created by Luciano Marisi on 26/07/2014.
 //  Copyright (c) 2014 TechBrewers LTD. All rights reserved.
 //
 
@@ -11,8 +11,6 @@
 // Animate add buttons
 #import "TBRAnimatedAddBarButtonItem.h"
 #import "TBRAnimatedAddButton.h"
-
-
 
 #pragma mark - Darker green
 @implementation UIColor (DarkerColor)
@@ -59,7 +57,3 @@
 }
 
 @end
-
-
-
-

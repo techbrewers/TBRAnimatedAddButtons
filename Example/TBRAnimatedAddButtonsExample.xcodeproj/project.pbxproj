@@ -1,0 +1,346 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F542F001984326800192ED3 /* TBRAddAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F542EFB1984326800192ED3 /* TBRAddAnimatedView.m */; };
+		4F542F011984326800192ED3 /* TBRAnimatedAddBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F542EFD1984326800192ED3 /* TBRAnimatedAddBarButtonItem.m */; };
+		4F542F021984326800192ED3 /* TBRAnimatedAddButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F542EFF1984326800192ED3 /* TBRAnimatedAddButton.m */; };
+		4FD32FAB19843208007CCD0D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FD32FAA19843208007CCD0D /* Foundation.framework */; };
+		4FD32FAD19843208007CCD0D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FD32FAC19843208007CCD0D /* CoreGraphics.framework */; };
+		4FD32FAF19843208007CCD0D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FD32FAE19843208007CCD0D /* UIKit.framework */; };
+		4FD32FB519843208007CCD0D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4FD32FB319843208007CCD0D /* InfoPlist.strings */; };
+		4FD32FB719843208007CCD0D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FD32FB619843208007CCD0D /* main.m */; };
+		4FD32FBB19843208007CCD0D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FD32FBA19843208007CCD0D /* AppDelegate.m */; };
+		4FD32FBE19843208007CCD0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FD32FBC19843208007CCD0D /* Main.storyboard */; };
+		4FD32FC119843208007CCD0D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FD32FC019843208007CCD0D /* ViewController.m */; };
+		4FD32FC319843208007CCD0D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FD32FC219843208007CCD0D /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4F542EFA1984326800192ED3 /* TBRAddAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBRAddAnimatedView.h; sourceTree = "<group>"; };
+		4F542EFB1984326800192ED3 /* TBRAddAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBRAddAnimatedView.m; sourceTree = "<group>"; };
+		4F542EFC1984326800192ED3 /* TBRAnimatedAddBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBRAnimatedAddBarButtonItem.h; sourceTree = "<group>"; };
+		4F542EFD1984326800192ED3 /* TBRAnimatedAddBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBRAnimatedAddBarButtonItem.m; sourceTree = "<group>"; };
+		4F542EFE1984326800192ED3 /* TBRAnimatedAddButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBRAnimatedAddButton.h; sourceTree = "<group>"; };
+		4F542EFF1984326800192ED3 /* TBRAnimatedAddButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBRAnimatedAddButton.m; sourceTree = "<group>"; };
+		4FD32FA719843208007CCD0D /* TBRAnimatedAddButtonsExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TBRAnimatedAddButtonsExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FD32FAA19843208007CCD0D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4FD32FAC19843208007CCD0D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4FD32FAE19843208007CCD0D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4FD32FB219843208007CCD0D /* TBRAnimatedAddButtonsExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TBRAnimatedAddButtonsExample-Info.plist"; sourceTree = "<group>"; };
+		4FD32FB419843208007CCD0D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4FD32FB619843208007CCD0D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4FD32FB819843208007CCD0D /* TBRAnimatedAddButtonsExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TBRAnimatedAddButtonsExample-Prefix.pch"; sourceTree = "<group>"; };
+		4FD32FB919843208007CCD0D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4FD32FBA19843208007CCD0D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4FD32FBD19843208007CCD0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4FD32FBF19843208007CCD0D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4FD32FC019843208007CCD0D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4FD32FC219843208007CCD0D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4FD32FC919843208007CCD0D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4FD32FA419843208007CCD0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FD32FAD19843208007CCD0D /* CoreGraphics.framework in Frameworks */,
+				4FD32FAF19843208007CCD0D /* UIKit.framework in Frameworks */,
+				4FD32FAB19843208007CCD0D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F542EF91984326800192ED3 /* TBRAnimatedAddButtons */ = {
+			isa = PBXGroup;
+			children = (
+				4F542EFA1984326800192ED3 /* TBRAddAnimatedView.h */,
+				4F542EFB1984326800192ED3 /* TBRAddAnimatedView.m */,
+				4F542EFC1984326800192ED3 /* TBRAnimatedAddBarButtonItem.h */,
+				4F542EFD1984326800192ED3 /* TBRAnimatedAddBarButtonItem.m */,
+				4F542EFE1984326800192ED3 /* TBRAnimatedAddButton.h */,
+				4F542EFF1984326800192ED3 /* TBRAnimatedAddButton.m */,
+			);
+			name = TBRAnimatedAddButtons;
+			path = ../../TBRAnimatedAddButtons;
+			sourceTree = "<group>";
+		};
+		4FD32F9E19843208007CCD0D = {
+			isa = PBXGroup;
+			children = (
+				4FD32FB019843208007CCD0D /* TBRAnimatedAddButtonsExample */,
+				4FD32FA919843208007CCD0D /* Frameworks */,
+				4FD32FA819843208007CCD0D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4FD32FA819843208007CCD0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4FD32FA719843208007CCD0D /* TBRAnimatedAddButtonsExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4FD32FA919843208007CCD0D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4FD32FAA19843208007CCD0D /* Foundation.framework */,
+				4FD32FAC19843208007CCD0D /* CoreGraphics.framework */,
+				4FD32FAE19843208007CCD0D /* UIKit.framework */,
+				4FD32FC919843208007CCD0D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4FD32FB019843208007CCD0D /* TBRAnimatedAddButtonsExample */ = {
+			isa = PBXGroup;
+			children = (
+				4FD32FB919843208007CCD0D /* AppDelegate.h */,
+				4FD32FBA19843208007CCD0D /* AppDelegate.m */,
+				4FD32FBC19843208007CCD0D /* Main.storyboard */,
+				4FD32FBF19843208007CCD0D /* ViewController.h */,
+				4FD32FC019843208007CCD0D /* ViewController.m */,
+				4F542EF91984326800192ED3 /* TBRAnimatedAddButtons */,
+				4FD32FC219843208007CCD0D /* Images.xcassets */,
+				4FD32FB119843208007CCD0D /* Supporting Files */,
+			);
+			path = TBRAnimatedAddButtonsExample;
+			sourceTree = "<group>";
+		};
+		4FD32FB119843208007CCD0D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4FD32FB219843208007CCD0D /* TBRAnimatedAddButtonsExample-Info.plist */,
+				4FD32FB319843208007CCD0D /* InfoPlist.strings */,
+				4FD32FB619843208007CCD0D /* main.m */,
+				4FD32FB819843208007CCD0D /* TBRAnimatedAddButtonsExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4FD32FA619843208007CCD0D /* TBRAnimatedAddButtonsExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FD32FD919843208007CCD0D /* Build configuration list for PBXNativeTarget "TBRAnimatedAddButtonsExample" */;
+			buildPhases = (
+				4FD32FA319843208007CCD0D /* Sources */,
+				4FD32FA419843208007CCD0D /* Frameworks */,
+				4FD32FA519843208007CCD0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TBRAnimatedAddButtonsExample;
+			productName = TBRAnimatedAddButtonsExample;
+			productReference = 4FD32FA719843208007CCD0D /* TBRAnimatedAddButtonsExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4FD32F9F19843208007CCD0D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "TechBrewers LTD.";
+			};
+			buildConfigurationList = 4FD32FA219843208007CCD0D /* Build configuration list for PBXProject "TBRAnimatedAddButtonsExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4FD32F9E19843208007CCD0D;
+			productRefGroup = 4FD32FA819843208007CCD0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4FD32FA619843208007CCD0D /* TBRAnimatedAddButtonsExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4FD32FA519843208007CCD0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FD32FC319843208007CCD0D /* Images.xcassets in Resources */,
+				4FD32FB519843208007CCD0D /* InfoPlist.strings in Resources */,
+				4FD32FBE19843208007CCD0D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4FD32FA319843208007CCD0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F542F011984326800192ED3 /* TBRAnimatedAddBarButtonItem.m in Sources */,
+				4F542F021984326800192ED3 /* TBRAnimatedAddButton.m in Sources */,
+				4FD32FC119843208007CCD0D /* ViewController.m in Sources */,
+				4FD32FBB19843208007CCD0D /* AppDelegate.m in Sources */,
+				4F542F001984326800192ED3 /* TBRAddAnimatedView.m in Sources */,
+				4FD32FB719843208007CCD0D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4FD32FB319843208007CCD0D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FD32FB419843208007CCD0D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4FD32FBC19843208007CCD0D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FD32FBD19843208007CCD0D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4FD32FD719843208007CCD0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4FD32FD819843208007CCD0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4FD32FDA19843208007CCD0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TBRAnimatedAddButtonsExample/TBRAnimatedAddButtonsExample-Prefix.pch";
+				INFOPLIST_FILE = "TBRAnimatedAddButtonsExample/TBRAnimatedAddButtonsExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4FD32FDB19843208007CCD0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TBRAnimatedAddButtonsExample/TBRAnimatedAddButtonsExample-Prefix.pch";
+				INFOPLIST_FILE = "TBRAnimatedAddButtonsExample/TBRAnimatedAddButtonsExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4FD32FA219843208007CCD0D /* Build configuration list for PBXProject "TBRAnimatedAddButtonsExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FD32FD719843208007CCD0D /* Debug */,
+				4FD32FD819843208007CCD0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FD32FD919843208007CCD0D /* Build configuration list for PBXNativeTarget "TBRAnimatedAddButtonsExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FD32FDA19843208007CCD0D /* Debug */,
+				4FD32FDB19843208007CCD0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4FD32F9F19843208007CCD0D /* Project object */;
+}

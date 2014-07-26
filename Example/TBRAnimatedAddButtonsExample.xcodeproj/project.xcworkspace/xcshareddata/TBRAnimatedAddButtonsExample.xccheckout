@@ -5,20 +5,20 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>618D6602-F874-4355-8D54-19B06F15D146</string>
+	<string>692C3D35-7689-4B07-AC7C-6E5848C35DB6</string>
 	<key>IDESourceControlProjectName</key>
-	<string>TBRAddAnimatedViewExample</string>
+	<string>TBRAnimatedAddButtonsExample</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>6DC4DA97-4374-494E-A9F9-4CD0C09B1607</key>
 		<string>https://github.com/techbrewers/TBRAddAnimatedView.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Example/TBRAddAnimatedViewExample.xcodeproj/project.xcworkspace</string>
+	<string>Example/TBRAnimatedAddButtonsExample/TBRAnimatedAddButtonsExample.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>6DC4DA97-4374-494E-A9F9-4CD0C09B1607</key>
-		<string>../../..</string>
+		<string>../../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/techbrewers/TBRAddAnimatedView.git</string>
