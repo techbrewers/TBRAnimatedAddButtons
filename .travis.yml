@@ -1,3 +1,3 @@
 language: objective-c
 script:
-- xctool -project Example/TBRAddAnimatedViewExample.xcodeproj -scheme TBRAddAnimatedViewExample -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+- xctool -project Example/TBRAnimatedAddButtonsExample.xcodeproj -scheme TBRAnimatedAddButtonsExample -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
