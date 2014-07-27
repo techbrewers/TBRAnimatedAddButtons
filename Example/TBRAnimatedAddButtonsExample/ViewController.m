@@ -33,7 +33,7 @@
     [rightButton setTintColor:[UIColor darkGreen]];
     self.navigationItem.rightBarButtonItem = rightButton;
     
-    TBRAnimatedAddButton *addButton = [[TBRAnimatedAddButton alloc] initWithFrame:CGRectMake(135, 200, 30, 30)];
+    TBRAnimatedAddButton *addButton = [[TBRAnimatedAddButton alloc] initWithFrame:CGRectMake(145, 200, 30, 30)];
     [addButton setTintColor:[UIColor darkGreen]];
     
     [addButton addTarget:self
