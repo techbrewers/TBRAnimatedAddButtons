@@ -35,9 +35,9 @@ static const CGRect kBarButtonFrame = {0, 0, 25, 25};
 
 #pragma mark - TBRAnimatedAddViewProtocol
 
-- (TBRAnimatedAddViewState)state
+- (TBRAnimatedAddViewState)viewState
 {
-    return [self.addButton state];
+    return [self.addButton viewState];
 }
 
 - (void)setTintColor:(UIColor *)tintColor

@@ -44,7 +44,7 @@
 
 - (void)buttonPressed:(id<TBRAnimatedAddViewProtocol>)button
 {
-    switch ([button state]) {
+    switch ([button viewState]) {
         case TBRAddAnimatedViewStateAdd: {
             [button setTintColor:[UIColor darkGreen]];
             break;

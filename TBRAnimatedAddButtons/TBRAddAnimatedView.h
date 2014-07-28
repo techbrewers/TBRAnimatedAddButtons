@@ -16,7 +16,7 @@ typedef NS_ENUM(NSInteger, TBRAnimatedAddViewState)
 
 @protocol TBRAnimatedAddViewProtocol <NSObject>
 
-- (TBRAnimatedAddViewState)state;
+- (TBRAnimatedAddViewState)viewState;
 - (void)setTintColor:(UIColor *)tintColor;
 
 @end

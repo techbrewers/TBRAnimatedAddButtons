@@ -35,7 +35,7 @@
 
 - (void)animateButtonPressed
 {
-    switch ([self state]) {
+    switch ([self viewState]) {
         case TBRAddAnimatedViewStateAdd: {
             [self.addAnimatedView animateToCancelState];
             break;
@@ -49,7 +49,7 @@
 
 #pragma mark - TBRAnimatedAddViewProtocol
 
-- (TBRAnimatedAddViewState)state
+- (TBRAnimatedAddViewState)viewState
 {
     return self.addAnimatedView.state;
 }
