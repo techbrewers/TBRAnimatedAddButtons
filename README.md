@@ -1,7 +1,7 @@
 TBRAnimatedAddButtons
 =====================
 
-[![Build Status](https://travis-ci.org/techbrewers/TBRAddAnimatedView.svg)](https://travis-ci.org/techbrewers/TBRAddAnimatedView)
+[![Build Status](https://travis-ci.org/techbrewers/TBRAnimatedAddButtons.svg)](https://travis-ci.org/techbrewers/TBRAnimatedAddButtons)
 
 Add button that animates to a cross (X) when pressed
 
