@@ -8,7 +8,8 @@ Add button that animates to a cross (X) when pressed
 Screenshot
 --------------------
 
-TO DO
+![TBRAnimatedAddButtons](https://raw.githubusercontent.com/techbrewers/TBRAnimatedAddButtons/master/screenshot.gif)
+
 
 Installation
 -------------
